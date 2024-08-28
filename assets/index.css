@@ -15,7 +15,17 @@ body,html {
   --primary-color: #5b5e76;
   --secondary-color: #959cad;
 }
-
+/*avtar  */
+.main-team__face-video {
+  border-radius:50%; 
+  overflow: hidden; 
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.profile_img{
+  background-color: #000000;
+}
 /* nav */
 .container{
   width: 80%!important;
