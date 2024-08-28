@@ -196,7 +196,27 @@ background-size: contain;
   border-radius: 22px;
   height:60vh
 }
+.tickerwrapper {
+  overflow: hidden;
+  position: relative;
+}
 
+.tickerwrapper ul.list {
+  display: flex;
+  white-space: nowrap;
+}
+
+.tickerwrapper ul.list li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.tickerwrapper .cloned {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
+}
 /* contact-page */
 .contact-img{
   width: 500px;
