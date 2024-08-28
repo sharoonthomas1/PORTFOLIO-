@@ -40,6 +40,8 @@ background-size: contain;
   position: fixed;
   z-index: 1;
 }
+.navbar-nav{
+  display: -webkit-inline-box !important;}
 /* heropage */
 .text_sec{
   width: 65%;
