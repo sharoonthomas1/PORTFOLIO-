@@ -197,8 +197,13 @@ background-size: contain;
   height:60vh
 }
 .tickerwrapper {
-  overflow: hidden;
   position: relative;
+  border: 1px solid #444;
+  background: #fff;
+  width: 99.9%;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .tickerwrapper ul.list {
