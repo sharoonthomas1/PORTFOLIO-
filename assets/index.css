@@ -74,6 +74,11 @@ background-size: contain;
   background-color: var(--heading-color);
   color: #fff;
 }
+.btn1 {
+  padding: 10px 15px;
+  background-color: var(--heading-color);
+  color: #fff;
+}
 .section {
   padding: 185px 0 0 0!important;
 }
